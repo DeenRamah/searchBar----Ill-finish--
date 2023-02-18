@@ -1,0 +1,39 @@
+
+.search-Detail
+{
+    display: flex;
+    flex-direction: column;
+}
+
+input
+{
+    width: 180px;
+    font-size: 1rem;
+    box-shadow: 3px 3px 3px  rgb(181, 156, 156);
+}
+
+.user-Details
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    margin-top: 1rem;
+    gap: .25rem;
+}
+.card
+{
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px  rgb(181, 156, 156);
+}
+.card > .head
+{
+    margin-bottom: .25rem;
+}
+.card .body
+{
+    font-size: .8rem;
+    color: #777;
+}
+.hide
+{
+    display: none;
+}
